@@ -9,12 +9,10 @@ import java.util.Map;
 
 public class GraduateParkingBoy {
 
-    private Map<Integer, ParkingLot> parkingLotHashMap;
     protected List<ParkingLot> parkingLots;
 
     public GraduateParkingBoy(ParkingLot... parkingLots) {
         this.parkingLots = List.of(parkingLots);
-        this.parkingLotHashMap = new HashMap<>();
     }
 
     public Ticket park(Car car){

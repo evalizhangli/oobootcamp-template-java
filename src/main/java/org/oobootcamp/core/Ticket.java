@@ -11,8 +11,4 @@ public class Ticket {
     public String getTicketNumber() {
         return ticketNumber;
     }
-
-    public void setTicketNumber(String ticketNumber) {
-        this.ticketNumber = ticketNumber;
-    }
 }
